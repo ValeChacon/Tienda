@@ -1,0 +1,14 @@
+com\tienda_v2\Tienda\service\impl\FirebaseStorageServiceImpl.class
+com\tienda_v2\Tienda\service\CategoriaService.class
+com\tienda_v2\Tienda\TiendaApplication.class
+com\tienda_v2\Tienda\domain\Categoria.class
+com\tienda_v2\Tienda\service\impl\ProductoServiceImpl.class
+com\tienda_v2\Tienda\dao\ProductoDao.class
+com\tienda_v2\Tienda\ProjectConfig.class
+com\tienda_v2\Tienda\service\ProductoService.class
+com\tienda_v2\Tienda\domain\Producto.class
+com\tienda_v2\Tienda\service\FirebaseStorageService.class
+com\tienda_v2\Tienda\service\impl\CategoriaServiceImpl.class
+com\tienda_v2\Tienda\controller\ProductoController.class
+com\tienda_v2\Tienda\controller\CategoriaController.class
+com\tienda_v2\Tienda\dao\CategoriaDao.class
