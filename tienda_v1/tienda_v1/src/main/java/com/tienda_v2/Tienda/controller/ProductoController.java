@@ -1,6 +1,7 @@
 package com.tienda_v2.Tienda.controller;
 
 import com.tienda_v2.Tienda.domain.Producto;
+import com.tienda_v2.Tienda.service.CategoriaService;
 import com.tienda_v2.Tienda.service.ProductoService;
 import com.tienda_v2.Tienda.service.impl.FirebaseStorageServiceImpl;
 import lombok.extern.slf4j.Slf4j;
@@ -20,11 +21,17 @@ public class ProductoController {
     
     @Autowired
     private ProductoService productoService;
+    @Autowired
+    private CategoriaService categoriaService;
     
     @GetMapping("/listado")
     public String inicio(Model model){
         var productos = productoService.getProductos(false);
         model.addAttribute("productos", productos);
+        
+        var categorias = categoriaService.getCategorias(false);
+        model.addAttribute("categorias", categorias);
+        
         model.addAttribute("totalProductos",productos.size());
         return "/producto/listado";
     }
@@ -62,6 +69,9 @@ public class ProductoController {
     public String productoModificar(Producto producto, Model model) {
         producto = productoService.getProducto(producto);
         model.addAttribute("producto", producto);
+        
+        var categorias = categoriaService.getCategorias(false);
+        model.addAttribute("categorias", categorias);
         return "/producto/modifica";
     }
 }
