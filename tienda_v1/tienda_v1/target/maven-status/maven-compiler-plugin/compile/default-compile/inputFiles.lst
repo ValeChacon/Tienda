@@ -1,5 +1,7 @@
+C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\controller\ReporteController.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\dao\RolDao.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\impl\RegistroServiceImpl.java
+C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\ReporteService.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\CategoriaService.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\dao\ProductoDao.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\impl\CorreoServiceImpl.java
@@ -8,6 +10,7 @@ C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tie
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\controller\UsuarioController.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\domain\Usuario.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\controller\RegistroController.java
+C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\impl\ReporteServiceImpl.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\impl\FirebaseStorageServiceImpl.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\impl\UsuarioServiceImpl.java
 C:\Users\valed\Documents\GitHub\Tienda\tienda_v1\tienda_v1\src\main\java\com\tienda\service\ProductoService.java
